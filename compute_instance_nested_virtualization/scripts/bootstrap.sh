@@ -12,6 +12,8 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.powerlevel10k/powerlevel10k.zsh-theme
 source ~/.p10k.zsh
+export TERM=xterm-256color
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'
 EOF
 
 curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
